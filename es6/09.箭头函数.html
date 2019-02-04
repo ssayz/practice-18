@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function a (){
+            //代码
+        }
+        (a,b,c) =>{
+            //代码
+        }
+
+
+
+        function show (fn) {
+            fn(12,5)
+        }
+        show((a,b)=>{
+            alert(a*b)
+        })
+
+
+
+        let show = a => {
+            alert(a)
+        }
+        show(12);
+
+
+
+        let sum = (a,b)=>a+b
+
+        alert(sum(12,5))
+
+
+
+
+        let arr = [12,5,12,4,2,,55,23,5]
+
+        arr.sort((a,b)=>a-b)
+
+        alert(arr);
+    </script>
+</head>
+<body>
+</body>
+</html>
